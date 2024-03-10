@@ -10,43 +10,66 @@ body
     display: grid;
     place-items: center;
     height: 100vh;
+    background-color: #01865c;
 }
 
 .button 
 {
     background-color: #04AA6D; 
     border: none;
-    color: rgb(255, 255, 255);
+    color: #0e4207f3;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover 
+{
+    background-color: RoyalBlue;
+}
+
+.settings-button 
+{
+    background-color: #04AA6D;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #0e4207f3;
 }
 
 .text
 {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    color: #01865c;
+    color: #0e4207f3;
     font-weight: 800;
 }
 
-.TimeContainer 
+.time-container 
 {
     width: auto;
     height: 50px;
     padding: 5px;
     display: flex;
     overflow: hidden;
-    background-color: #01865c;
+    background-color: #04AA6D;
     border-radius: 5px;
-    color:rgb(255, 255, 255);
+    color:#0e4207f3;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
 
-.TimeContainer li 
+.time-container li 
 {
     list-style-type: none;
     height: 100%;
@@ -56,7 +79,7 @@ body
     transition-duration: 0.33s;
 }
 
-.TimeContainer .colon
+.time-container .colon
 {
     font-size: 30px;
     display: grid;
