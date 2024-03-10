@@ -1,2 +1,2 @@
 # FancyPomo
-Pomodoro app for focus with fancy digital clock.
+Pomodoro app helps you focus on your task with fancy digital clock.
